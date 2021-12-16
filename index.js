@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    /*
     //insertamos texto en el h1 que estra dentro del id content
     $('#content h1').html('Jequery course');
     //le agregamos una clase a todos los elementos con la clase con display 4
@@ -17,6 +18,16 @@ $(document).ready(function() {
     $('img').attr('src', 'https://imgr.search.brave.com/hG7gATqXuo6ehnwwtxOg6u5L5NJYmDPguh_80onSrB8/fit/1140/878/ce/1/aHR0cHM6Ly9jdW1i/cmVwdWVibG9zY29w/MjAub3JnL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA5L0Nv/bWljLmpwZw');
     //se le agrega tamaño a todas las img
     $('img').attr('width', '300px');
+*/
+    var parrafo = $('#content p').addClass('text-white');
+    $('.btn-danger').click(function() {
+        //oculta
+        parrafo.fadeOut(2000);
+    });
+    $('.btn-success').click(function() {
+        //lo muestra
+        parrafo.fadeIn(2000);
+    });
 
 });
 //document.querySelector('.display-4').innerHTML = 'vanilla'
