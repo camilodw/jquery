@@ -13,5 +13,10 @@ $(document).ready(function() {
     $('#content').remove();
     //oculta el elemento
     $('#content').hide();
+    //agrego url a todas las img
+    $('img').attr('src', 'https://imgr.search.brave.com/hG7gATqXuo6ehnwwtxOg6u5L5NJYmDPguh_80onSrB8/fit/1140/878/ce/1/aHR0cHM6Ly9jdW1i/cmVwdWVibG9zY29w/MjAub3JnL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA5L0Nv/bWljLmpwZw');
+    //se le agrega tamaño a todas las img
+    $('img').attr('width', '300px');
+
 });
 //document.querySelector('.display-4').innerHTML = 'vanilla'
